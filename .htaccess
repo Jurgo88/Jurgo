@@ -1,0 +1,23 @@
+# Rewrite to www
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^https://jurgo.sk[nc]
+RewriteRule ^(.*)$ http://www.https://wwww.jurgo.sk/$1 [r=301,nc]
+
+RewriteRule ^jurgo.sk/lenka https://jurgo.sk/examples/lenka-page.html [R=301]
+
+
+
+
+# Custom 400 errors
+ErrorDocument 404 /errorsPages/404.html
+
+
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+DirectoryIndex index.html
+
