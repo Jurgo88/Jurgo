@@ -1,6 +1,14 @@
-.carousel {
-    top: -200px;
+ .carousel {
+    /* max-width: 800px; */
 }
+@media (min-width: 2048px){
+    .carousel{
+        height: 800px;
+        width: 1500px;
+    }
+
+}
+
 .carousel-item h4 {
     height: 100px;
 }
@@ -9,15 +17,15 @@
     height: 400px;
     position: relative;
     margin-bottom: 20px;
+    border: 1px solid black; 
+    border-radius: 5px;   
 }
 .tile .portret {
     height: 70%;
-    border: 1px solid black;
-    border-bottom-width: 0px;
+    border-bottom: 1px solid black;
     /* background-color: green; */
 }
 .tile .personInfo{
-    border: 1px solid black;
     height: 30%;
     padding-top: 30px;
 }
@@ -59,3 +67,22 @@
 .tile:hover > .personInfo{
     opacity: 0.5;
 }
+.contactText{
+    padding-left: 20px;
+    position: absolute;
+}
+.contact{
+    padding: 50px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.labelForm{
+    position: relative;
+    background-color: #fff;
+    top: 15px;
+    padding: 0 5px;
+}
+.borderLine {
+    border-top: 1px solid black;
+    padding: 5px 0;
+} 
