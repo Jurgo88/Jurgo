@@ -86,3 +86,13 @@
     border-top: 1px solid black;
     padding: 5px 0;
 } 
+.logo{
+    height: 50px;
+    top: 0;
+    position: absolute; 
+    transition-duration: 2s;
+}
+.navbar-transparent .logo{
+    height: 150px;
+    transition-duration: 2s;
+}
