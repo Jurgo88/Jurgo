@@ -1,13 +1,5 @@
- .carousel {
-    /* max-width: 800px; */
-}
-@media (min-width: 2048px){
-    .carousel{
-        height: 800px;
-        width: 1500px;
-    }
 
-}
+
 
 .carousel-item h4 {
     height: 100px;
@@ -95,4 +87,21 @@
 .navbar-transparent .logo{
     height: 150px;
     transition-duration: 2s;
+}
+
+@media (min-width: 2048px){
+    .carousel{
+        position: absolute;
+        top: 300px;
+    }
+    .carousel-item {
+        min-width: 600px;
+    }
+
+}
+@media (max-width: 2048px) {
+    .carousel{
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(2px);
+    }
 }
