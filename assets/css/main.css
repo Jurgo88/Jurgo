@@ -105,3 +105,8 @@
         backdrop-filter: blur(2px);
     }
 }
+@media (max-width: 768px){
+    .navbar-transparent .logo{
+        height: 80px;
+    }
+} 
