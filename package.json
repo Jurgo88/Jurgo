@@ -1,0 +1,37 @@
+{
+  "name": "jurgo.sk",
+  "version": "1.0.0",
+  "description": "Tvoríme pre Vás moderné webové aplikácie. Zverte Váš projekt do rúk odborníkov.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "vite"
+  },
+  "keywords": [
+    "Web",
+    "webstranka",
+    "stranka",
+    "webdizajn",
+    "grafika",
+    "logo",
+    "tvorba",
+    "webu",
+    "web",
+    "zadarmo",
+    "jurgo",
+    "topolcany",
+    "bratislava",
+    "webova",
+    "aplikacia",
+    "mobilna",
+    "aplikacia"
+  ],
+  "author": "Jurgo",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.4.11"
+  }
+}
